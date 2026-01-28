@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <title>Fotogram</title>
     <script src="./javaScriptFolder/db.js"></script>
     <script src="./javaScriptFolder/templates.js"></script>
@@ -13,11 +13,11 @@
       href="./assets/img/logos/logoSmall.png"
       alt="Logo"
     />
-    <link rel="stylesheet" href="./css/standard.css">
+    <link rel="stylesheet" href="./css/standard.css" />
 
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body onload="init()">
+  <body  onload="init()">
     <header class="h-24">
       <img src="./assets/img/logos/logoFullSize.png" alt="LogoFotogram" />
       <nav>
@@ -56,33 +56,28 @@
       </nav>
     </header>
 
-    <h1 class="text-5xl font-bold">Welcome to my HolidayPicutre Board</h1>
+    <h1>Welcome to my HolidayPicutre Board</h1>
 
     <section class="pictureSection">
-      <div>
-        <h2 >My Trip to Mallorca 2023</h2>
-        <div
-          id="picturesOne"
-          class="columns-3 md:columns-5 gap-4 p-4 mx-auto max-w-5xl"
-        ></div>
+      <div class="pictureSerieOne">
+        <h2>My Trip to Mallorca 2023</h2>
+        <div id="picturesOne"></div>
       </div>
       <dialog id="picturesDialogOne"></dialog>
-       <div>
+      <div class="pictureSerieTwo">
         <h2 class="text-4xl font-bold">My Trip to Turkey 2024</h2>
-        <div
-          id="picturesOne"
-          class="columns-3 md:columns-5 gap-4 p-4 mx-auto max-w-5xl"
-        ></div>
+        <div id="picturesTwo"></div>
       </div>
       <dialog id="picturesDialogOne"></dialog>
-       <div>
+      <div class="pictureSerieThree">
         <h2 class="text-4xl font-bold">My Trip to Mallorca 2025</h2>
-        <div
-          id="picturesOne"
-          class="columns-3 md:columns-5 gap-4 p-4 mx-auto max-w-5xl"
-        ></div>
+        <div id="picturesThree"></div>
       </div>
     </section>
+
+    <footer>
+      created by Christopher Braun 2026
+    </footer>
   </body>
   <script src="./script.js"></script>
 </html>

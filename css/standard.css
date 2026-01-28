@@ -1,46 +1,57 @@
-
-:root{
-    --background-color: #06171E;
-    --header-color: #09212A;
-    --text-color:white;
+:root {
+  --background-color: #06171e;
+  --header-color: #09212a;
+  --text-color: white;
+  --transform: calc(var(--base-scale) * 1.2);
 }
 
-
-body{
-background-color:var(--background-color);
-color: var(--text-color);  
-margin: 0;
+@font-face {
+  font-family: "fredoka";
+  src: url(/assets/font/Fredoka-VariableFont_wdth\,wght.ttf);
 }
 
+body {
+  font-family: "fredoka";
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+}
+
+.mw-1440px {
+  max-width: 1440px;
+}
 
 header {
-    background-color: var(--header-color);
-    display: flex;
-    align-items: center;
-    height: 80px;
+  background-color: var(--header-color);
+  display: flex;
+  align-items: center;
+  height: 80px;
 }
 
 h1 {
-    text-align: center;
-    margin: 140px;
+  font-size: 56px;
+  text-shadow: 7px 5px 9px #b3cebf;
+  text-align: center;
+  margin: 140px;
 }
 
 h2 {
-    text-align: center;
-    margin: 40px;
+  font-size: 36px;
+  text-align: center;
+  margin: 40px;
+  text-shadow: 7px 5px 9px #b3cebf;
 }
-
 
 .size-8 {
-    width: 32px;
-    height: 32px;
-    color: var(--text-color);
+  width: 32px;
+  height: 32px;
+  color: var(--text-color);
 }
 
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+footer {
+  background-color: var(--header-color);
+  height: 80px;
+  display: flex;
+  align-items: center;
+ 
 }
