@@ -81,6 +81,7 @@ footer {
   width: 100%;
   align-content: center;
   flex-direction: row;
+  font-size: 18px;
 }
 
 .footerLeft {
@@ -100,6 +101,7 @@ footer {
 .footerCenter a {
   color: white;
   text-decoration: none;
+  
 
 }
 
@@ -109,7 +111,7 @@ footer {
     margin-right: 65px;
     padding: 12px;
     gap: 12px;
-    font-size: 12px;
+    
 }
 
 .f-w {
