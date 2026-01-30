@@ -1,21 +1,37 @@
+
+header {
+    background-color: var(--header-color);
+    display: flex;
+    align-items: center;
+    height: 80px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    padding-right: 88px;
+}
+
 header img {
   height: 40px;
-  padding-left: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-nav {
-  display: flex;
-  gap: 12px;
-  margin-left: auto;
-  padding-right: 120px;
-  color: white;
+.navHeader {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
 }
 
-.contact:hover {
-  transform: scale(1.2);
+.login-btn {
+    margin-left: 10px;
+    padding: 6px 12px;
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
 }
 
 .pictureSection {
@@ -51,11 +67,11 @@ nav {
   border: none;
   padding: 0;
   cursor: pointer;
-  width: 180px;
+  width: 200px;
 }
 
-.picture-button:hover{
-    transform: scale(1.1);   
+.picture-button:hover {
+  transform: scale(1.1);
 }
 
 .pictureGallery {
@@ -64,14 +80,15 @@ nav {
   object-fit: cover;
   border-radius: 8px;
 }
+
 .linkImg {
-  transition: all 0.8s ease;
-  width:40px;
+  transition: all 0.4s ease;
+  width: 40px;
   border: 2px solid transparent;
 }
 
 .linkImg:hover {
-  transform: scale(1.1);
+  
   border-color: white;
-  border-radius: 54px;
+  border-radius: 18px;
 }

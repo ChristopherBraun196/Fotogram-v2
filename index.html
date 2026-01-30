@@ -14,20 +14,37 @@
       alt="Logo"
     />
     <link rel="stylesheet" href="./css/standard.css" />
-    <link rel="stylesheet" href="./css/dialog.css">
+    <link rel="stylesheet" href="./css/dialog.css" />
+    <link rel="stylesheet" href="./css/login.css" />
 
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body onload="init()">
-    <header class="h-24">
+    <header class="headerBar">
       <img src="./assets/img/logos/logoFullSize.png" alt="LogoFotogram" />
-      <nav>
-        <a class="contact" href="tel:+"
-          ><img src="./assets/img/logos/call.png" alt="" />
+      <nav class="navHeader">
+        <a href="tel:+">
+          <img
+            class="linkImg"
+            src="./assets/img/logos/call.svg"
+            alt="Anrufen"
+          />
         </a>
-        <a class="contact" href="mailto:"
-          ><img src="./assets/img/logos/mail.png" alt="sent_mail" />
+        <a href="mailto:">
+          <img class="linkImg" src="./assets/img/logos/mail.svg" alt="E-Mail" />
         </a>
+        <div class="a_12"></div>
+
+        <div class="login-container">
+          <button onclick="logIn()" class="login-btn">
+            <img
+              class="linkImg"
+              src="./assets/img/logos/login.png"
+              alt="Login"
+            />
+          </button>
+          <div id="login" class="d-none"></div>
+        </div>
       </nav>
     </header>
 
@@ -52,21 +69,47 @@
 
     <dialog id="picturesDialogOne"></dialog>
     <footer>
-      <div>
-        <p>created by Christopher Braun 2026</p>
-        <nav>
-          <a href="https://github.com/ChristopherBraun196">
-            <img class="linkImg" src="./assets/img/logos/github.jpg" alt="" />
-          </a>
-          <a href="https://github.com/ChristopherBraun196">
-            <img
-              class="linkImg"
-              src="./assets/img/logos/instagram.png"
-              alt=""
-            />
-          </a>
-        </nav>
+      <div class="footerLeft">
+        <img src="./assets/img/logos/logoSmall.png" alt="logoSmall" />
+
+        <p>created by Christopher Braun 2026&copy;</p>
       </div>
+
+      <div class="footerCenter">
+        <a href=""> Impressum </a>
+        <div class="a_12"></div>
+        <a href=""> Datenschutz </a>
+      </div>
+
+      <nav class="navFooter">
+        <a href="https://github.com/ChristopherBraun196" target="_blank">
+          <img class="linkImg f-w" src="./assets/img/logos/github.jpg" alt="" />
+        </a>
+        <div class="a_12"></div>
+        <a href="https://discord.gg/ZgYafmyJ" target="_blank">
+          <img
+            class="linkImg f-w"
+            src="./assets/img/logos/discord.png"
+            alt=""
+          />
+        </a>
+        <div class="a_12"></div>
+        <a href="https://store.steampowered.com/?l=german" target="_blank">
+          <img
+            class="linkImg f-w"
+            src="./assets/img/logos/steam.png"
+            alt=""
+          />
+        </a>
+        <div class="a_12"></div>
+        <a href="https://instagram.com" target="_blank">
+          <img
+            class="linkImg f-w"
+            src="./assets/img/logos/instagram.png"
+            alt=""
+          />
+        </a>
+      </nav>
     </footer>
   </body>
   <script src="./script.js"></script>

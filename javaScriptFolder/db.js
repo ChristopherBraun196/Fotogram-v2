@@ -4,14 +4,14 @@ let pictureBookOne = [
     image: "./assets/img/picturesOne/img1.jpg",
     name: "Hotel Außenansicht",
     description:
-      "Eine wunderschöne Außenansicht des Hotels bei Sonnenuntergang.",
+      "Eine wunderschöne Außenansicht des Hotels.",
   },
   {
     id: 2,
     image: "./assets/img/picturesOne/img2.jpg",
     name: "Strand auf Mallorca",
     description:
-      "Ein traumhafter Strand auf Mallorca mit klarem blauen Wasser.",
+      "Ein traumhafter Strand auf Mallorca mit blauen Himmel.",
   },
   {
     id: 3,
@@ -62,7 +62,7 @@ let pictureBookOne = [
     image: "./assets/img/picturesOne/img10.jpg",
     name: "Strand Spaziergang auf Mallorca",
     description:
-      "Ein entspannter Spaziergang am Strand auf Mallorca bei Sonnenuntergang.",
+      "Ein entspannter Spaziergang am Strand auf Mallorca am Mittag.",
   },
 ];
 
@@ -70,34 +70,34 @@ let pictureBookTwo = [
   {
     id: 1,
     image: "./assets/img/picturesTwo/img1.jpg",
-    name: "Hotel Außenansicht",
+    name: "Aussicht Big Karl",
     description:
-      "Eine wunderschöne Außenansicht des Hotels bei Sonnenuntergang.",
+      "Eine wunderschöne Ansicht von Big Karl.",
   },
   {
     id: 2,
     image: "./assets/img/picturesTwo/img2.jpg",
-    name: "Strand auf Mallorca",
+    name: "Aussicht aufs Meer vom Hotelrestaurant",
     description:
-      "Ein traumhafter Strand auf Mallorca mit klarem blauen Wasser.",
+      "Aussicht aufs Meer vom Hotelrestaurant.",
   },
   {
     id: 3,
     image: "./assets/img/picturesTwo/img3.jpg",
-    name: "Blick vom Hotelzimmer Morgens",
-    description: "Der atemberaubende Blick vom Hotelzimmer am Morgen.",
+    name: "Blick auf's Meer ",
+    description: "Der atemberaubende Blick vom Strand auf's Meer.",
   },
   {
     id: 4,
     image: "./assets/img/picturesTwo/img4.jpg",
-    name: "Blick vom Hotelzimmer Mittags",
-    description: "Der atemberaubende Blick vom Hotelzimmer am Mittag.",
+    name: "Blick auf's Meer nach rechts",
+    description: "Der atemberaubende Blick auf's Meer beim Sonnenuntergang.",
   },
   {
     id: 5,
     image: "./assets/img/picturesTwo/img5.jpg",
-    name: "Aquarium mit Meerfischen",
-    description: "Ein faszinierendes Aquarium voller bunter Meerfische.",
+    name: "Blick auf's Meer nach links",
+    description: "Ein faszinierendes Ausblick am Mittag vom Strand auf's Meer.",
   },
 ];
 
