@@ -105,66 +105,66 @@ let pictureBookThree = [
   {
     id: 1,
     image: "./assets/img/picturesThree/img1.jpg",
-    name: "Hotel Außenansicht",
+    name: "Außenansicht vom Hotelzimmer",
     description:
-      "Eine wunderschöne Außenansicht des Hotels bei Sonnenuntergang.",
+      "Eine wunderschöne Außenansicht auf das Meer vom Hotelzimmer.",
   },
   {
     id: 2,
     image: "./assets/img/picturesThree/img2.jpg",
-    name: "Strand auf Mallorca",
+    name: "Steiniger Strand auf Mallorca",
     description:
-      "Ein traumhafter Strand auf Mallorca mit klarem blauen Wasser.",
+      "Ein traumhafter Anblick auf den Strand von Mallorca mit klarem blauen Wasser.",
   },
   {
     id: 3,
     image: "./assets/img/picturesThree/img3.jpg",
-    name: "Blick vom Hotelzimmer Morgens",
-    description: "Der atemberaubende Blick vom Hotelzimmer am Morgen.",
+    name: "Blick vom Hotel auf den Strand",
+    description: "Der atemberaubende Blick vom Strand auf das weite Meer.",
   },
   {
     id: 4,
     image: "./assets/img/picturesThree/img4.jpg",
-    name: "Blick vom Hotelzimmer Mittags",
-    description: "Der atemberaubende Blick vom Hotelzimmer am Mittag.",
+    name: "Blick aufs Meer ",
+    description: "Der atemberaubende Blick vom Strand auf's Meer.",
   },
   {
     id: 5,
     image: "./assets/img/picturesThree/img5.jpg",
-    name: "Aquarium mit Meerfischen",
-    description: "Ein faszinierendes Aquarium voller bunter Meerfische.",
+    name: "Blick vom Eisstand auf's Meer",
+    description: "Ein toller Anblick auf's Meer beim Eisessen.",
   },
   {
     id: 6,
     image: "./assets/img/picturesThree/img6.jpg",
-    name: "Strand auf Mallorca",
-    description: "Ein weiterer atemberaubender Strand auf Mallorca.",
+    name: "Strandweg auf Mallorca",
+    description: "Ein weiterer atemberaubender Spaziergang auf Mallorca.",
   },
   {
     id: 7,
     image: "./assets/img/picturesThree/img7.jpg",
-    name: "Schildkröten von Oben",
+    name: "Spaziergang am Strand",
     description:
-      "Eine Gruppe von Schildkröten, die von oben betrachtet werden.",
+      "Ausblick vom Strandspaziergang auf's Meer.",
   },
   {
     id: 8,
     image: "./assets/img/picturesThree/img8.jpg",
-    name: "Hai im Aquarium",
+    name: "Spaziergang am Strand",
     description:
-      "Ein beeindruckender Hai, der majestätisch im Aquarium schwimmt.",
+      "Ausblick vom Strandspaziergang auf's Meer.",
   },
   {
     id: 9,
     image: "./assets/img/picturesThree/img9.jpg",
-    name: "Hai im Aquarium aus der Nähe",
-    description: "Ein Nahaufnahme eines Hais im Aquarium.",
+    name: "Hotelzimmer Ansicht auf's Land",
+    description: "Ein warmer Sommertag, Ansicht auf's Land.",
   },
   {
     id: 10,
     image: "./assets/img/picturesThree/img10.jpg",
-    name: "Strand Spaziergang auf Mallorca",
+    name: "Strand Ansicht auf's Meer am Mittag",
     description:
-      "Ein entspannter Spaziergang am Strand auf Mallorca bei Sonnenuntergang.",
+      "Ein entspannter Sommertag auf Mallorca.",
   },
 ];

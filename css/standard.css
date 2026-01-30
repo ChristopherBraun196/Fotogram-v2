@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: "fredoka";
-  src: url(/assets/font/Fredoka-VariableFont_wdth\,wght.ttf);
+  src: url("../assets/font/Fredoka-VariableFont_wdth\,wght.ttf");
 }
 
 body {
