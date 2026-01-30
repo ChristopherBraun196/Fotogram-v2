@@ -17,6 +17,11 @@ body {
   margin: 0;
 }
 
+body:has(#picturesDialogOne[open]) {
+  overflow: hidden;
+}
+
+
 .mw-1440px {
   max-width: 1440px;
 }
@@ -48,10 +53,19 @@ h2 {
   color: var(--text-color);
 }
 
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 6px;
+  margin-top: 42px;
   background-color: var(--header-color);
   height: 80px;
-  display: flex;
-  align-items: center;
- 
+  color: white;
+  width: 100%;
 }
