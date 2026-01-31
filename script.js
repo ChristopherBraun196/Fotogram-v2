@@ -36,7 +36,7 @@ function loadPictures(pictureBook, containerID, bookName) {
 
 function openImage(bookName, index) {
   const dialog = document.getElementById("picturesDialogOne");
-  currentBook = allBooks[bookName]; 
+  currentBook = allBooks[bookName];
   currentIndex = index;
 
   renderImage();
@@ -82,7 +82,6 @@ function nextBtn() {
     currentIndex = 0;
   }
   renderImage();
-
 }
 function prevBtn() {
   currentIndex--;
@@ -103,13 +102,11 @@ function closeBtn() {
 }
 
 function logIn() {
-    let log = document.getElementById('login');
-    
-    // Falls noch kein Inhalt drin ist (vom Template)
-    if (log.innerHTML.trim() === "") {
-        log.innerHTML = loginTemplate();
-    }
+  let log = document.getElementById("login");
 
-    // Umschalten zwischen Anzeigen und Verstecken
-    log.classList.toggle('d-none');
+  if (log.innerHTML.trim() === "") {
+    log.innerHTML = loginTemplate();
+  }
+
+  log.classList.toggle("d-none");
 }

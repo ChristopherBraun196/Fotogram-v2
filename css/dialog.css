@@ -1,4 +1,3 @@
-
 dialog {
   padding: 0px;
   border: none;
@@ -36,7 +35,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000; 
+  background-color: #000;
   width: 100%;
 }
 
@@ -56,7 +55,7 @@ h3 {
   border: none;
   padding: 20px 10px;
   font-size: 24px;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .nav-arrow:hover {
@@ -71,8 +70,14 @@ h3 {
   transition: all 200ms ease;
 }
 
-.left-arrow { left: 0px; border-radius: 0px 4px 4px 0px; }
-.right-arrow { right: 0px; border-radius: 4px 0px 0px 4px; }
+.left-arrow {
+  left: 0px;
+  border-radius: 0px 4px 4px 0px;
+}
+.right-arrow {
+  right: 0px;
+  border-radius: 4px 0px 0px 4px;
+}
 
 .dialog-footer {
   padding: 15px 20px;
@@ -93,8 +98,8 @@ h3 {
   cursor: pointer;
 }
 
-@media(max-width: 1050px){
-  .imgBig {    
-    max-height: 745px;  
-}
+@media (max-width: 1050px) {
+  .imgBig {
+    max-height: 745px;
+  }
 }
