@@ -19,96 +19,94 @@
 
     <link rel="stylesheet" href="./style.css" />
   </head>
+
   <body onload="init()">
     <header class="headerBar">
-      <img src="./assets/img/logos/logoFullSize.png" alt="LogoFotogram" />
-      <nav class="navHeader">
-        <a href="tel:+">
-          <img
-            class="linkImg"
-            src="./assets/img/logos/call.svg"
-            alt="Anrufen"
-          />
-        </a>
-        <a href="mailto:">
-          <img class="linkImg" src="./assets/img/logos/mail.svg" alt="E-Mail" />
-        </a>
-        <div class="a_12"></div>
-
-        <div class="login-container">
-          <button onclick="logIn()" class="login-btn">
-            <img
+      <div class="mw-1940px">
+        <img src="./assets/img/logos/logoFullSize.png" alt="LogoFotogram" />
+        <nav class="navHeader">
+          <a href="tel:+"
+            ><img
               class="linkImg"
-              src="./assets/img/logos/login.png"
-              alt="Login"
-            />
-          </button>
-          <div id="login" class="d-none"></div>
-        </div>
-      </nav>
+              src="./assets/img/logos/call.svg"
+              alt="Anrufen"
+          /></a>
+          <a href="mailto:"
+            ><img
+              class="linkImg"
+              src="./assets/img/logos/mail.svg"
+              alt="E-Mail"
+          /></a>
+          <div class="a_12"></div>
+          <div class="login-container">
+            <button onclick="logIn()" class="login-btn">
+              <img
+                class="linkImg"
+                src="./assets/img/logos/login.png"
+                alt="Login"
+              />
+            </button>
+            <div id="login" class="d-none"></div>
+          </div>
+        </nav>
+      </div>
     </header>
 
-    <h1>Welcome to my HolidayPicutre Board</h1>
+    <main class="mw-1940px">
+      <h1>Welcome to my HolidayPicutre Board</h1>
+      <section class="pictureSection">
+        <div class="pictureSerieOne">
+          <h2>
+            My Trip to Mallorca <br />
+            2023
+          </h2>
+          <div id="picturesOne"></div>
+        </div>
+        <div class="pictureSerieTwo">
+          <h2 class="text-4xl font-bold">My Trip to Turkey <br />2024</h2>
+          <div id="picturesTwo"></div>
+        </div>
+        <div class="pictureSerieThree">
+          <h2 class="text-4xl font-bold">My Trip to Mallorca <br />2025</h2>
+          <div id="picturesThree"></div>
+        </div>
+      </section>
+    </main>
 
-    <section class="pictureSection">
-      <div class="pictureSerieOne">
-        <h2>My Trip to Mallorca <br> 2023</h2>
-        <div id="picturesOne"></div>
+    <footer>
+      <div class="mw-1940px">
+        <div class="footerLeft">
+          <a href="#"
+            ><img src="./assets/img/logos/logoSmall.png" alt="logoSmall"
+          /></a>
+          <p>created by Christopher Braun 2026&copy;</p>
+        </div>
+        <div class="footerCenter">
+          <a href=""> Impressum </a>
+          <div class="a_12"></div>
+          <a href=""> Datenschutz </a>
+        </div>
+        <nav class="navFooter">
+          <a href="https://github.com/ChristopherBraun196" target="_blank"
+            ><img class="linkImg f-w" src="./assets/img/logos/github.jpg"
+          /></a>
+          <div class="a_12"></div>
+          <a href="https://discord.gg/ZgYafmyJ" target="_blank"
+            ><img class="linkImg f-w" src="./assets/img/logos/discord.png"
+          /></a>
+          <div class="a_12"></div>
+          <a href="https://store.steampowered.com/?l=german" target="_blank"
+            ><img class="linkImg f-w" src="./assets/img/logos/steam.png"
+          /></a>
+          <div class="a_12"></div>
+          <a href="https://instagram.com" target="_blank"
+            ><img class="linkImg f-w" src="./assets/img/logos/instagram.png"
+          /></a>
+        </nav>
       </div>
-
-      <div class="pictureSerieTwo">
-        <h2 class="text-4xl font-bold">My Trip to Turkey <br>2024</h2>
-        <div id="picturesTwo"></div>
-      </div>
-
-      <div class="pictureSerieThree">
-        <h2 class="text-4xl font-bold">My Trip to Mallorca <br>2025</h2>
-        <div id="picturesThree"></div>
-      </div>
-    </section>
+    </footer>
 
     <dialog id="picturesDialogOne"></dialog>
-    <footer>
-      <div class="footerLeft">
-        <a href="#">
-          <img src="./assets/img/logos/logoSmall.png" alt="logoSmall" />
-        </a>
-
-        <p>created by Christopher Braun 2026&copy;</p>
-      </div>
-
-      <div class="footerCenter">
-        <a href=""> Impressum </a>
-        <div class="a_12"></div>
-        <a href=""> Datenschutz </a>
-      </div>
-
-      <nav class="navFooter">
-        <a href="https://github.com/ChristopherBraun196" target="_blank">
-          <img class="linkImg f-w" src="./assets/img/logos/github.jpg" alt="" />
-        </a>
-        <div class="a_12"></div>
-        <a href="https://discord.gg/ZgYafmyJ" target="_blank">
-          <img
-            class="linkImg f-w"
-            src="./assets/img/logos/discord.png"
-            alt=""
-          />
-        </a>
-        <div class="a_12"></div>
-        <a href="https://store.steampowered.com/?l=german" target="_blank">
-          <img class="linkImg f-w" src="./assets/img/logos/steam.png" alt="" />
-        </a>
-        <div class="a_12"></div>
-        <a href="https://instagram.com" target="_blank">
-          <img
-            class="linkImg f-w"
-            src="./assets/img/logos/instagram.png"
-            alt=""
-          />
-        </a>
-      </nav>
-    </footer>
+    <script src="./script.js"></script>
   </body>
-  <script src="./script.js"></script>
 </html>

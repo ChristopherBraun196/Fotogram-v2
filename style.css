@@ -91,6 +91,16 @@ header img {
   border-radius: 18px;
 }
 
+@media(min-height: 1500px){
+  footer{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  }
+
+}
+
 @media (max-width: 1325px) {
   .pictureSection {
     display: flex;
