@@ -127,7 +127,7 @@ header img {
 
 @media (max-width: 450px) {
   .linkImg {
-    width: 15px;
-    height: 15px;
+    width: 30px;
+    height: 30px;
   }
 }
